@@ -16,7 +16,7 @@ Android Automotive OS(Pleos Connect)에서 와이퍼 블레이드 사용률을 �
 
 ### Release APK
 
-루트의 `CarDNA_release.apk`가 서명된 release 빌드입니다. 서명에 사용한 로컬 keystore(`cardna-release.jks`, `keystore.properties`)는 git에 포함되어 있지 않습니다.
+`apk/CarDNA_release.apk`가 서명된 release 빌드입니다. 서명에 사용한 로컬 keystore(`cardna-release.jks`, `keystore.properties`)는 git에 포함되어 있지 않습니다.
 
 release 빌드는 R8 `optimization`(패키지 리패키징)을 끈 상태입니다. 켜두면 AndroidX Startup과 Kotlin stdlib 조합에서 `IllegalAccessError`가 발생해 앱이 시작하자마자 죽는 것을 실제 기기에서 확인해서, MVP 우선순위(빌드되고 실행되는 것)에 따라 비활성화했습니다.
 
