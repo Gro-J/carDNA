@@ -1,0 +1,22 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Signing (경로 보존 금지: keystore/비밀번호는 git에 올리지 않음)
+*.jks
+*.keystore
+keystore.properties
